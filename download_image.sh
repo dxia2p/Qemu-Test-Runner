@@ -1,0 +1,1 @@
+wget -P images https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.img

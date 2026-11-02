@@ -1,0 +1,7 @@
+#cloud-config
+users:
+  - name: tester
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    ssh_authorized_keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOo/WtLn5LqKtC9fN7C136VimuCclqpy0if2cNQLLfMb davidx@david-swiftsfg1442
+      
