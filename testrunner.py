@@ -99,6 +99,7 @@ def main():
         if vm_process:
             print("\nPowering off VM...")
             stop_vm(vm_process)
+        os.remove(overlay_path)
 
 if __name__ == "__main__":
     main()
